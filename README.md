@@ -62,7 +62,7 @@ Create a .env file in the root directory and add the following:
 ## Login Credentials
 To log into the application, use the following sample credentials:
 
-- Email: `admin@example.com`
+- Email: `admi@example.com`
 - Password: `password123`
 
 ## Usage
