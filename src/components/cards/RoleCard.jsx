@@ -2,7 +2,7 @@ import React from 'react';
 
 const RoleCard = ({ role, onEdit, onDelete }) => {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-4 flex justify-between items-center mb-4">
+    <div className="bg-white shadow-lg rounded-lg p-4 flex justify-between items-center mb-4 flex-col gap-4 md:flex-row md:gap-0">
       <div>
         <h3 className="text-lg font-semibold">{role.name}</h3>
         <p className="text-sm text-gray-600">ID: {role._id}</p>
