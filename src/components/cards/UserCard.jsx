@@ -2,7 +2,7 @@ import React from 'react';
 
 const UserCard = ({ name, mail, status, onEdit, onDelete }) => {
   return (
-    <div className='bg-white shadow-lg rounded-lg p-4 flex justify-between items-center'>
+    <div className='bg-white shadow-lg rounded-lg p-4 flex justify-between items-center flex-col gap-4 md:flex-row md:gap-0'>
       <div>
         <h3 className='text-lg font-semibold'>{name}</h3>
         <p className='text-sm text-gray-600'>{mail}</p>
